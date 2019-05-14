@@ -1,0 +1,54 @@
+
+ul {
+	list_style: none;
+	display: flex;
+	justify_content: space_around;
+	}
+
+
+h1 { 
+	font-size: 72px;
+	color: #003399;
+	text-align: center;
+	border-style: dotted;
+	}
+h2 {
+	font-size: 36px;
+	color: #0055ff;
+	text-align: center;
+	font-style: italic;
+}
+
+li {
+	backgound-color: white;
+	padding: 30px;
+	font-size: 30px;
+	width: 15%;
+	text-align: center;
+	flex-direction: column;
+	justify-content: center;
+}
+
+li:hover {
+	opacity: 0.5;
+}
+
+#firstList {
+	background-color: lime;
+}
+
+.fish {
+    color: orange;
+    text-decoration: underline;
+}
+
+
+.mammals {
+    color: red;
+    font-weight: bold;
+}
+
+.birds {
+    color: blue;
+    font-style: italic;
+}
